@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-box {
+    @apply w-2/3  p-3 rounded-md shadow-sm;
+}
+
+.received-text {
+    @apply bg-gray-100 text-gray-600;
+}
+
+.sent-text{
+    @apply ml-auto bg-indigo-600 text-white;
+}
+
+.user-row{
+    @apply flex items-center gap-10 bg-white text-gray-600 h-20 px-5 rounded-md shadow-sm cursor-pointer;
+}
